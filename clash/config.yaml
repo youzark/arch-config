@@ -1,0 +1,10 @@
+ipv6: true
+proxy-providers:
+  yiyo:
+    type: http
+    url: "https://yiyosub.com/sub?target=clash&url=https%3A%2F%2Fyiyocloud.com%2Flink%2Ff95NmrJi76zHyjq2%3Fsub%3D1&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fwyawwawy%2FRules%2Fmain%2Frule.ini&filename=Yiyo&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false&expand=true&new_name=true"
+    interval: 3600
+    path: ./yiyo.yaml
+    health-check:
+      enable: true
+      interval: 600

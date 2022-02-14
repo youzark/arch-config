@@ -1,0 +1,9 @@
+[https]
+	proxy = socks5://127.0.0.1:7891
+[http]
+	proxy = socks5://127.0.0.1:7891
+[remote "origin"]
+	proxy = socks5://127.0.0.1:7891
+[user]
+	email = gacforstudy@gmail.com
+	name = youzark
