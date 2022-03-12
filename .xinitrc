@@ -29,11 +29,13 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-twm &
-xclock -geometry 50x50-1+1 &
-xterm -geometry 80x50+494+51 &
-xterm -geometry 80x20+494-0 &
-clash -f $HOME/.config/clash/self.yaml &
+# twm &
+# xclock -geometry 50x50-1+1 &
+# xterm -geometry 80x50+494+51 &
+# xterm -geometry 80x20+494-0 &
+mv ~/Downloads/*\.pdf ~/Downloads/pdf &
+mv ~/Downloads/*\.torrent ~/Downloads/torrent &
+clash -f $HOME/.config/clash/frog.yaml &
 xmodmap $usermodmap &
 exec /usr/bin/i3
 # exec xterm -geometry 80x66+0+0 -name login

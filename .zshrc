@@ -113,8 +113,13 @@ openPdfZathura() {
 	zathura $1 & disown
 }
 alias vim="nvim"
+alias pic="nomacs"
+alias video="mpv"
 alias pdf="openPdfZathura"
-
+alias torrent="aria2c"
+poetry completions zsh > ~/.zfunc/_poetry
+fpath+=~/.zfunc
+# alias tmux="TERM=screen-256color tmux"
 
 autoload -Uz compinit
 compinit
@@ -126,4 +131,6 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 eval "$(pyenv init -)"
-
+# if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+#   exec tmux
+# fi

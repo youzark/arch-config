@@ -2,11 +2,16 @@ let &packpath = &runtimepath
 let mapleader = ","
 lua require("init")
 
+let g:jupyter_mapkeys = 0
 let g:floaterm_width=0.95
 let g:floaterm_height=0.95
 let g:maximizer_set_default_mapping = 0
 let g:maximizer_restore_on_winleave = 1
+
 let g:UltiSnipsExpandTrigger='<NUL>'
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
 let g:livedown_browser = "firefox"
 let g:rnvimr_draw_border = 1
 let g:rnvimr_enable_picker = 1
@@ -21,7 +26,7 @@ let g:indentLine_conceallevel  = &conceallevel
 let g:indentLine_concealcursor = &concealcursor
 let g:indentLine_noConcealCursor=1
 let g:python3_host_prog = "~/.pyenv/versions/nvim/bin/python3"
-
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 set relativenumber
 set ignorecase

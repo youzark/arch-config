@@ -1,0 +1,4 @@
+2022-03-05 11:57:54,829 - INFO - **** INITIALISING NEW VIMSPECTOR SESSION ****
+2022-03-05 11:57:54,829 - INFO - API is: neo
+2022-03-05 11:57:54,829 - INFO - VIMSPECTOR_HOME = /home/youzark/.local/share/nvim/site/pack/packer/start/vimspector
+2022-03-05 11:57:54,829 - INFO - gadgetDir = /home/youzark/.local/share/nvim/site/pack/packer/start/vimspector/gadgets/linux

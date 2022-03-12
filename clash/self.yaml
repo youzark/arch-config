@@ -6,21 +6,60 @@ log-level: info
 ipv6: true
 external-controller: :9090
 proxies:
-  - {name: HK03, server: cmrelay01.yiyorelay.xyz, port: 2702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
-  - {name: HK04, server: cmrelay01.yiyorelay.xyz, port: 2703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: HK03, server: cn2relay01.yiyorelay.xyz, port: 2702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: HK04, server: cn2relay01.yiyorelay.xyz, port: 2703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: HK05, server: cn2relay01.yiyorelay.xyz, port: 2704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: HK06, server: cn2relay01.yiyorelay.xyz, port: 2705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: HK07, server: cn2relay01.yiyorelay.xyz, port: 2706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: HK08, server: cn2relay01.yiyorelay.xyz, port: 2707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: HK09, server: cn2relay01.yiyorelay.xyz, port: 2708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: HK10, server: cn2relay01.yiyorelay.xyz, port: 2709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
   - {name: TW01, server: cmrelay01.yiyorelay.xyz, port: 5700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
   - {name: TW02, server: cmrelay01.yiyorelay.xyz, port: 5701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
   - {name: TW03, server: cmrelay01.yiyorelay.xyz, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: TW04, server: cmrelay01.yiyorelay.xyz, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: TW05, server: cmrelay01.yiyorelay.xyz, port: 5704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: TW06, server: cmrelay01.yiyorelay.xyz, port: 5705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: SP01, server: cmrelay01.yiyorelay.xyz, port: 6700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: SP02, server: cmrelay01.yiyorelay.xyz, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: SP03, server: cmrelay01.yiyorelay.xyz, port: 6702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: SP04, server: cmrelay01.yiyorelay.xyz, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: SP05, server: cmrelay01.yiyorelay.xyz, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: SP06, server: cmrelay01.yiyorelay.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: SP07, server: cmrelay01.yiyorelay.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: SP08, server: cmrelay01.yiyorelay.xyz, port: 6707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: SP09, server: cmrelay01.yiyorelay.xyz, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
+  - {name: SP10, server: cmrelay01.yiyorelay.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 54087:ASGF2j, obfs-param: bb23754087.microsoft.com}
 proxy-groups:
   - name: google
     type: url-test
     proxies:
       - HK03
       - HK04
-      - TW01
-      - TW02
-      - TW03
-    url: 'https://www.google.com'
+      # - HK05
+      # - HK06
+      # - HK06
+      # - HK07
+      # - HK08
+      # - HK09
+      # - HK10
+      # - TW01
+      # - TW02
+      # - TW03
+      # - TW04
+      # - TW05
+      # - TW06
+      # - SP01
+      # - SP02
+      # - SP03
+      # - SP04
+      # - SP05
+      # - SP06
+      # - SP07
+      # - SP08
+      # - SP09
+      # - SP10
+    url: 'https://www.youtube.com'
     interval: 5000
 rules:
  - DOMAIN-KEYWORD,bilibili,DIRECT
@@ -29,6 +68,9 @@ rules:
  - DOMAIN-KEYWORD,baidu,DIRECT
  - DOMAIN-KEYWORD,taobao,DIRECT
  - DOMAIN-KEYWORD,ustc,DIRECT
+ - DOMAIN-KEYWORD,zhihu,DIRECT
+ - DOMAIN-SUFFIX,cn,DIRECT
+ - DOMAIN-SUFFIX,cn.com,DIRECT
  - DOMAIN-KEYWORD,youtube,google
  - DOMAIN-KEYWORD,google,google
  - DOMAIN-KEYWORD,github,google

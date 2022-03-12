@@ -14,7 +14,9 @@ require('packer').startup(
 	use 'shime/vim-livedown'
 	use 'jpalardy/vim-slime'
 	use 'hanschen/vim-ipython-cell'
+	use 'jupyter-vim/jupyter-vim'
 	use 'nvim-treesitter/nvim-treesitter'
+	use { 'SirVer/ultisnips' }
 
 	use 'vim-test/vim-test'
 

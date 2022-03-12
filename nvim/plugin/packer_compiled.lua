@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/home/youzark/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
+  ["jupyter-vim"] = {
+    loaded = true,
+    path = "/home/youzark/.local/share/nvim/site/pack/packer/start/jupyter-vim",
+    url = "https://github.com/jupyter-vim/jupyter-vim"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/youzark/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -143,6 +148,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/youzark/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ultisnips = {
+    loaded = true,
+    path = "/home/youzark/.local/share/nvim/site/pack/packer/start/ultisnips",
+    url = "https://github.com/SirVer/ultisnips"
   },
   ["vim-airline"] = {
     loaded = true,
@@ -247,5 +257,6 @@ if should_profile then save_profiles() end
 end)
 
 if not no_errors then
+  error_msg = error_msg:gsub('"', '\\"')
   vim.api.nvim_command('echohl ErrorMsg | echom "Error in packer_compiled: '..error_msg..'" | echom "Please check your config for correctness" | echohl None')
 end

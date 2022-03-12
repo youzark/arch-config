@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="_/tutorial/java/audio/src"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default/lib/javafx.media.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default-runtime/lib/javafx.fxml.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default-runtime/lib/javafx.swing.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default-runtime/lib/javafx.graphics.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default/lib/javafx-swt.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default/lib/jrt-fs.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default-runtime/lib/javafx-swt.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default-runtime/lib/javafx.web.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default/lib/javafx.base.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default/lib/javafx.controls.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default/lib/javafx.web.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default/lib/javafx.graphics.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default-runtime/lib/jrt-fs.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default/lib/javafx.fxml.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default/lib/javafx.swing.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default-runtime/lib/javafx.media.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default-runtime/lib/javafx.base.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/default-runtime/lib/javafx.controls.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

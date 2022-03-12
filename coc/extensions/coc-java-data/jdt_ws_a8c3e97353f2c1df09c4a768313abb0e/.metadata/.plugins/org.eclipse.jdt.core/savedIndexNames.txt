@@ -1,0 +1,22 @@
+INDEX VERSION 1.131+/home/youzark/.config/coc/extensions/coc-java-data/jdt_ws_a8c3e97353f2c1df09c4a768313abb0e/.metadata/.plugins/org.eclipse.jdt.core
+2663841340.index
+113527219.index
+1865797976.index
+299130675.index
+3980208117.index
+2762624269.index
+1213761945.index
+1257148299.index
+676911311.index
+1597067313.index
+1169693822.index
+3842426239.index
+1598640570.index
+1144204440.index
+3367338341.index
+3015334797.index
+2442161609.index
+495552455.index
+1639680520.index
+177758180.index
+1473841176.index

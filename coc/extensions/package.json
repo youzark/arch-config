@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "coc-ccls": ">=0.0.5",
+    "coc-clangd": ">=0.19.0",
+    "coc-cspell-dicts": ">=1.0.2",
+    "coc-dictionary": ">=1.2.2",
+    "coc-java": ">=1.5.5",
+    "coc-java-intellicode": ">=0.0.1",
+    "coc-lua": ">=1.0.1",
+    "coc-marketplace": ">=1.8.1",
+    "coc-pyright": ">=1.1.220",
+    "coc-snippets": ">=2.4.8",
+    "coc-spell-checker": ">=1.2.0",
+    "coc-sumneko-lua": ">=0.0.13"
+  }
+}
